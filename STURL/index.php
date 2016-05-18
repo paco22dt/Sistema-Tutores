@@ -36,16 +36,27 @@ if (isset($_POST['login'])) {
 }
 ?>
 
+<html>
 
-<div class="login">
-    <h1 class="title-page">Iniciar sesión</h1>
-    <form action="" method="post" class="login">
-        <p><input type="text" name="user" value="" placeholder="Usuario"></p>
-        <p><input type="password" name="password" value="" placeholder="Contraseña"></p>
-        <p class="submit"><input type="submit" name="login" value="Iniciar sesión"></p>
-    </form>
-</div>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href='resource/css/bootstrap.min.css' rel='stylesheet' media='screen'>
+        <link href='resource/js/bootstrap.min.js' rel='stylesheet' media='screen'>
+        <link href='resource/js/jquery-2.2.3.min.js' rel='stylesheet' media='screen'>
+        <title>Login</title>
+    </head>
+    <body>
+        <div class="login">
+            <h1 class="title-page">Iniciar sesión</h1>
+            <form action="" method="post" class="login">
+                <p><input type="text" name="user" value="" placeholder="Usuario"></p>
+                <p><input type="password" name="password" value="" placeholder="Contraseña"></p>
+                <p class="submit"><input type="submit" name="login"  value="Iniciar sesión"></p>
+            </form>
+        </div>
+    </body>
 
+</html>
 <!--<form action="" method="post" class="login">
     <div><label>Usuario</label><input name="user" type="text" ></div>
     <div><label>Contraseña</label><input name="password" type="password"></div>
