@@ -37,12 +37,11 @@ if (isset($_POST['login'])) {
 ?>
 
 <html>
-
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href='resource/css/bootstrap.min.css' rel='stylesheet' media='screen'>
-        <link href='resource/js/bootstrap.min.js' rel='stylesheet' media='screen'>
-        <link href='resource/js/jquery-2.2.3.min.js' rel='stylesheet' media='screen'>
+        <link href='/css/bootstrap.min.css' rel='stylesheet' media='screen'>
+        <link href='/js/bootstrap.min.js' rel='stylesheet' media='screen'>
+        <link href='/js/jquery-2.2.3.min.js' rel='stylesheet' media='screen'>
         <title>Login</title>
     </head>
     <body>
@@ -55,7 +54,6 @@ if (isset($_POST['login'])) {
             </form>
         </div>
     </body>
-
 </html>
 <!--<form action="" method="post" class="login">
     <div><label>Usuario</label><input name="user" type="text" ></div>
